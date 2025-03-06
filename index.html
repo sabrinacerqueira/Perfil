@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="iconeflor.png">
+
+    <section id="topo"></section>
+    <title>Perfil Sabrina Bispo</title>
+    
+     <h1>Perfil Sabrina Bispo</h1>
+    <hr>
+
+    <nav>
+        <ul>
+            <li><a href ="#apresentação">Apresentação</a></li>
+            <li><a href ="#hobbies">Hobbies e Interesses</a></li>
+            <li><a href ="#habilidades">Minhas Habilidades</a></li>
+            <li><a href ="#contato">Contato</a></li>
+            <li><a href ="#redes">Redes Sociais</a></li>
+        </ul>
+    </nav>
+    </section>
+        <hr>
+    </head>
+
+    <body>  
+     <section id="apresentação">
+      
+        <h1>Olá, Meu nome é Sabrina!</h1>
+
+        <figure>
+           <img src="ImagemSabrina.png" width="15%" alt="Arte representando Sabrina Bispo">
+        </figure>
+         
+         <h2>Seja bem vindo ao meu perfil.</h2>
+
+         <p>Olá! Meu nome é <b>Sabrina</b>, tenho 23 anos e estou estudando <strong>Desenvolvimento de Software Multiplataforma.</strong>
+            <br>
+            Adoro <i>tecnologia</i>, cresci rodeada de computadores e técnicos pois meus pais eram donos de uma lan-house quando eu era mais nova. 
+            <br>Meu sonho é virar uma boa <b>desenvolvedora de software.</b></p>
+        <p>Gosto de <ins>fotografia</ins>, <ins>design</ins>, <ins>photoshop</ins>...  Além da tecnologia, sempre fui envolvida no mundo da arte, fiz teatro, <i>pintura</i>, e todo tipo de dança que possa se imaginar, 
+          até hoje gosto de <ins>pintar</ins>, <ins>desenhar</ins>, <ins>escrever </ins>e até mesmo <ins>esculpir</ins>. <br>  Antes de começar o curso, eu trabalhava como vendedora e no meu tempo livre passava ouvindo música, lendo, ou fazendo algo em familia. 
+           <br>Este é meu primeiro site <b>HTML</b>, onde conto um pouco sobre mim.
+          
+        </p>
+        <br>
+         <figure>
+            <img src="ImagemLuna.png" width="15%" alt="Arte representando minha gatinha Luna">
+            <figcaption>Essa é minhha gatinha <b>Luna</b></figcaption>
+        </figure>
+    </section>
+
+    <section id="hobbies">
+        <h2><ins>Hobbies</ins></h2>
+        <ul>
+            <li>Ouvir música </li>
+            <li>Ler</li>
+            <li>Pintar</li>
+        </ul>
+        
+        <h2><ins>Interesses</ins></h2>
+        <ul>
+            <li>Programação </li>
+            <li>Design</li>
+            <li>Fotografia</li>
+        </ul>
+
+    </section>
+    
+    <section id="habilidades">
+        <h2><ins>Habilidades</ins></h2>
+        <ol type="I">
+            <li>Idiomas</li>
+                <ol type="i">
+                    <li>Inglês</li>
+                    <li>Espanhol</li>
+                </ol>
+            <li>Arte e Design</li>
+            <li>Fotografia e Edição</li>
+        </ol>
+
+        <h2><ins>Tabela de Habilidades</ins></h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Habilidades</th>
+                    <th>Conhecimento</th>
+                    <th>Niveis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Idiomas</td> 
+                    <td>Espanhol</td>
+                    <td>Avançado</td>
+                  
+                </tr>
+                <tr>  
+                     <td>Inglês</td>
+                     <td>Intermediário</td>
+                </tr>
+                  <tr>
+                    <td>Fotografia e Edição</td>
+                    <td>Photoshop</td>
+                    <td>Avançado</td>
+                </tr>
+                <tr>
+                     <td colspan="2">Arte e Design</td>
+                     <td>Avançado</td>
+                    
+                </tr>
+              
+            </tbody>
+        </table>
+        <br><br>
+    </section>
+
+    <section id="contato">
+       <h2><ins>Formulario de Contato</ins></h2>
+         <form> 
+           
+
+            <label>Nome:</label>
+            <input type="text" required name="nome" >
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" required placeholder="useremail.com">
+            <br><br>
+
+            <label>Gênero:</label>
+            <br>
+            <input type="radio" id="f" name="Gênero">
+            <label>Feminino</label>
+            <br>
+            <input type="radio" id="m" name="Gênero">
+            <label>Masculino</label>
+            <br><br>
+
+            <label>Interesses:</label>
+            <br>
+            <input type="checkbox" id="Prog" name="int1">
+            <label>Programação</label>
+            <br>
+            <input type="checkbox" id="Mus" name="int2">
+            <label>Música</label>
+            <br>
+            <input type="checkbox" id="Ler" name="int3">
+            <label>Leitura</label>
+            <br>
+            <input type="checkbox" id="Fot" name="int4">
+            <label>Fotografia</label>
+            
+            <br><br>
+            
+            <label>Área de Interesses:</label>
+            <br>
+            <select>
+                <option>Tecnologia</option>
+                <option>Design</option>
+                <option>Photoshop</option>
+                </select>
+            <br><br>
+
+            
+            <label>Mensagem</label>
+            <br>
+            <textarea id="Mensagem" rows="5" cols="50" maxlength="250"></textarea>
+            <br>
+            <input button type="submit" value="enviar">
+         
+            <br><br>  
+     
+         </form>
+
+    </section>
+
+    <section id="redes">
+        <h2><ins>Redes Sociais e Projetos</ins></h2>
+        <p>Aqui estão algumas redes sociais para me conhecer melhor ou entrar em contato:</p>
+        <ul>
+            <li><a href="https://github.com/sabrinacerqueira" target="_blank">GitHub</a></li>
+            <li><a href="https://www.instagram.com/oblique_eyes/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.last.fm/pt/user/obliqueeyes" target="_blank">Last.fm</a></li>
+        </ul>
+    </section>  
+
+    <section>
+         <h2><ins>Música</ins> </h2>
+    <p>Aqui esta uma das minhas músicas preferidas:</p>
+    <ul>
+    <li>Little Dragon-Twice</li>
+    </ul>
+    
+    <audio controls>
+        <source src="Twice-Little Dragon.mp3">
+    </audio>
+    </section>
+    <br><br>
+
+    <section>
+        <a href="#topo">
+           <input type="button" value="voltar ao topo da pagina" >
+           
+       </section>
+
+    </body>
+</html>
